@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black
 }
 
 main{
@@ -10,17 +10,71 @@ main{
     height: 600px;
 }
 
-.img2{
+.obdelnik{
     position: absolute;
     top: 150px;
     left: 350px;
+    z-index: 3;
+}
+
+.kruhl {
+    position: absolute;
+    top: 80px;
+    left: 530px;
     z-index: 1;
 }
 
-.img1{
-    z-index: 10;
+.kruhs{
+    position: absolute;
+    top: 233px;
+    left: 287px;
+    z-index: 2;
 }
-
+.cisla{
+    color: azure;
+    position: absolute;
+    top: 242px;
+    left: 379px;
+    z-index: 4;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.jmeno{
+    color: azure;
+    position: absolute;
+    top: 280px;
+    left: 379px;
+    z-index: 4;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.expirace{
+    color: azure;
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    z-index: 4;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.banka{
+    color: azure;
+    position: absolute;
+    top: 170px;
+    left: 410px;
+    z-index: 4;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.🦅{
+    color: azure;
+    position: absolute;
+    top: 155px;
+    left: 365px;
+    z-index: 4;
+    font-size:35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .container{
     background-image: ;
 }
